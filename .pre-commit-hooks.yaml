@@ -1,7 +1,14 @@
-- id: vale-system
-  name: Find spelling/grammatical errors.
-  description: Lint your Markdown/Plain Text files for grammatical/spelling errors.
+# - id: vale-system
+#   name: Find spelling/grammatical errors.
+#   description: Lint your Markdown/Plain Text files for grammatical/spelling errors.
+#   entry: vale
+#   language: system
+#   types:
+#     - shell
+
+- id: vale
+  name: vale
+  description: Find spelling/grammatical errors.
   entry: vale
-  language: system
-  types:
-    - shell
+  language: golang
+  types: [text, markdown, rst]
