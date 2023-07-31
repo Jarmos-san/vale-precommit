@@ -1,14 +1,18 @@
 # Vale Pre-Commit Hook
 
-This is the [`pre-commit`][1] hook for linting prose content written in
-Markdown and/or Plain Text files using [`vale`][2].
+This is the [`pre-commit`][1] hook for linting prose content written in Markdown
+and/or Plain Text files using [`vale`][2].
+
+**DISCLAIMER**: This repository is no longer maintained since the official
+repository now supports `pre-commit` hooks. Please use the official repository
+no onwards instead of this repository!
 
 ## Usage Guide
 
 Like any other `pre-commit` hooks, adding this specific hook is as easy as
 configuring your project's `.pre-commit-config.yaml` file! Simply add the
-following lines of code to the aforementioned file & run the `pre-commit
-install --install-hooks` command.
+following lines of code to the aforementioned file & run the
+`pre-commit install --install-hooks` command.
 
 ```yaml
 repos:
@@ -32,6 +36,7 @@ information on the usage & distribution rights, feel free to read the
 [LICENSE][5] document.
 
 <!-- Reference Links -->
+
 [1]: https://pre-commit.com
 [2]: https://vale.sh
 [3]: https://git-scm.com/docs/githooks#_pre_commit
